@@ -2,31 +2,32 @@
 
 Computer Science undergraduate with an interest in systems programming, networking, and building practical tools. I enjoy working close to the system level and experimenting with backend and security-related projects.
 
-## 🚀 Projects
+##  Projects
 
-**Shellby**
+* **Shellby**
 A lightweight Unix-like shell written in C supporting command execution and basic process control.
 
-**Web Server Fingerprinting Tool**
+* **Web Server Fingerprinting Tool**
 Client-server application built with Python sockets and TLS/SSL encryption to identify characteristics of web servers.
 
-**School Management System**
+* **School Management System**
 A full-stack MERN application for managing student records and school operations.
 
-**Queue Management System**
+* **Queue Management System**
 A console-based C application that simulates a hospital queue management system.
 
-**Game Arcade (C)**
+* **Game Arcade (C)**
 Terminal-based arcade featuring the classic games Hangman and Battleship.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Languages:** C/C++ , Python, JavaScript
 * **Web:** HTML, CSS, MERN Stack
-* **Systems:** Linux, Socket Programming
-* **Tools:** Git, GitHub
-
+* **Frameworks:** React, Node.js
+* **Systems:** Arch Linux, Socket Programming
+* **Libraries:** pandas, NumPy, Matplotlib
 
 ## 📫 Connect
 
 * GitHub: https://github.com/abhiram289
+* Linkedin: https://www.linkedin.com/in/abhirammns/
