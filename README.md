@@ -1,31 +1,32 @@
-# abhiram-mns.github.io
-# Personal Website
+# Hi, I'm Abhiram 👋
 
-This repository contains the source code for my personal website hosted using **GitHub Pages**.
+Computer Science undergraduate with an interest in systems programming, networking, and building practical tools. I enjoy working close to the system level and experimenting with backend and security-related projects.
 
-The site serves as a simple portfolio where I showcase my projects, technical skills, and other work.
+## 🚀 Projects
 
-## 🌐 Live Website
+**Shellby**
+A lightweight Unix-like shell written in C supporting command execution and basic process control.
 
-You can view the site here:
-https://abhiram289.github.io/
+**Web Server Fingerprinting Tool**
+Client-server application built with Python sockets and TLS/SSL encryption to identify characteristics of web servers.
 
-## 📌 About
+**School Management System**
+A full-stack MERN application for managing student records and school operations.
 
-The website is designed to provide a central place for:
+**Queue Management System**
+A console-based C application that simulates a hospital queue management system.
 
-* Personal projects
-* Technical experiments
-* Portfolio content
-* Contact information
+**Game Arcade (C)**
+Terminal-based arcade featuring the classic games Hangman and Battleship.
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript
-* GitHub Pages
+* **Languages:** C/C++ , Python, JavaScript
+* **Web:** HTML, CSS, MERN Stack
+* **Systems:** Linux, Socket Programming
+* **Tools:** Git, GitHub
 
-## 🚧 Status
 
-Currently **in progress**. More sections and improvements will be added over time.
+## 📫 Connect
+
+* GitHub: https://github.com/abhiram289
