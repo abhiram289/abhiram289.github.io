@@ -1,6 +1,6 @@
 # Hi, I'm Abhiram 👋
 
-Computer Science undergraduate with an interest in systems programming, networking, and building practical tools. I enjoy working close to the system level and experimenting with backend and security-related projects.
+CS undergrad at PES University.
 
 ##  Projects
 
