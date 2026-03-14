@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
 <title>Abhiram.exe</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
@@ -9,76 +10,92 @@
 <style>
 
 body{
-    margin:0;
-    background:#0d0d0d;
-    font-family:'Space Mono', monospace;
-    color:#cfcfcf;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+margin:0;
+font-family:'Space Mono', monospace;
+color:#cfcfcf;
+background-color:#0b0b0b;
+
+/* GRID BACKGROUND */
+background-image:
+linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+background-size:40px 40px;
 }
 
 .container{
-    width:900px;
+width:1100px;
+margin:auto;
+padding:40px;
 }
 
-.stamp{
-    font-size:48px;
-    color:#9cff57;
-    margin-bottom:10px;
+.title{
+font-size:48px;
+color:#00ff9c;
 }
 
 .subtitle{
-    color:#777;
-    margin-bottom:40px;
+color:#aaa;
+margin-bottom:40px;
 }
 
-.section{
-    margin-top:35px;
+.panels{
+display:flex;
+gap:40px;
 }
 
-.section h2{
-    color:#9cff57;
-    margin-bottom:10px;
+.panel{
+border:1px solid rgba(255,255,255,0.15);
+border-radius:10px;
+padding:25px;
+flex:1;
+background:rgba(0,0,0,0.4);
+}
+
+.panel h2{
+margin-top:0;
+color:#00ff9c;
 }
 
 .item{
-    margin:8px 0;
+margin:10px 0;
 }
 
 .item::before{
-    content:">> ";
-    color:#9cff57;
+content:">> ";
+color:#00ff9c;
+}
+
+.footer{
+margin-top:60px;
+color:#888;
+}
+
+a{
+color:#00ff9c;
+text-decoration:none;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-<h1 class="stamp">Abhiram.exe</h1>
+<h1 class="title">Abhiram M N S</h1>
 <p class="subtitle">Personal portfolio</p>
 
-<div class="section">
+<div class="panels">
+
+<div class="panel">
+
 <h2>About</h2>
-<p>CS undergraduate at PES University. Interested in systems programming, networking and backend development.</p>
-</div>
 
-<div class="section">
-<h2>Projects</h2>
+<p>
+CS Undergraduate at PES University.
+</p>
 
-<div class="item">Shelby — Unix-like shell written in C supporting process control.</div>
-<div class="item">Web Server Fingerprinting Tool — Python sockets + TLS server analysis.</div>
-<div class="item">Markr — Minimal Flask web tool for image watermarking.</div>
-<div class="item">Queue Management System — Console simulation built in C.</div>
-<div class="item">Game Arcade — Terminal games including Hangman and Battleship.</div>
-
-</div>
-
-<div class="section">
 <h2>Tech Stack</h2>
 
 <div class="item">Languages: C/C++, Python, JavaScript</div>
@@ -88,15 +105,60 @@ body{
 
 </div>
 
-<div class="section">
+
+<div class="panel">
+
+<h2>Projects</h2>
+
+<div class="item">
+<a href="https://github.com/abhiram289/shelby" target="_blank">
+Shelby
+</a> — Unix-like shell written in C
+</div>
+
+<div class="item">
+<a href="https://github.com/abhiram289/markr.exe" target="_blank">
+Markr
+</a> — Minimal image watermarking tool built with Flask
+</div>
+
+<div class="item">
+<a href="https://github.com/abhiram289/web-server-fingerprinting" target="_blank">
+Web Server Fingerprinting Tool
+</a> — Python sockets with TLS encryption
+</div>
+
+<div class="item">
+<a href="https://github.com/abhiram289/school-management-mern" target="_blank">
+Campus Manager
+</a> — MERN-based student record management system
+</div>
+    
+<div class="item">
+<a href="https://github.com/abhiram289/queue-management" target="_blank">
+Queue Management System
+</a> — C simulation of hospital queues
+</div>
+
+<div class="item">
+<a href="https://github.com/abhiram289/game-arcade" target="_blank">
+Game Arcade
+</a> — Terminal based arcade that has the classics, Hangman & Battleship
+</div>
+
 <h2>Connect</h2>
 
-<div class="item"><a href="https://github.com/YOURUSERNAME">GitHub</a></div>
-<div class="item"><a href="https://linkedin.com/in/YOURPROFILE">LinkedIn</a></div>
+<div class="item">
+<a href="https://github.com/abhiram289">GitHub</a>
+</div>
 
 </div>
+<a href="https://www.linkedin.com/in/abhirammns/">LinkedIn</a>
+</div>
+
 
 </div>
 
 </body>
+
 </html>
