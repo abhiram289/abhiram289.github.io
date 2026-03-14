@@ -23,9 +23,9 @@ Terminal-based arcade featuring the classic games Hangman and Battleship.
 
 * **Languages:** C/C++ , Python, JavaScript
 * **Web:** HTML, CSS, MERN Stack
-* **Frameworks:** React, Node.js
-* **Systems:** Arch Linux, Socket Programming
-* **Libraries:** pandas, NumPy, Matplotlib
+* **Frameworks:** React, Node.js, Flask
+* **Systems:** Linux, Socket Programming
+* **Libraries:** pandas, NumPy, Matplotlib, Pillow
 
 ## 📫 Connect
 
