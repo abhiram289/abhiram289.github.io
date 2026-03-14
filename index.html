@@ -3,28 +3,100 @@
 
 <head>
 <title>Abhiram.exe</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 
 <style>
-body{
-background:#0d0d0d;
-color:#9cff57;
-font-family:'Space Mono', monospace;
-padding:60px;
-}
-</style>
 
+body{
+    margin:0;
+    background:#0d0d0d;
+    font-family:'Space Mono', monospace;
+    color:#cfcfcf;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:900px;
+}
+
+.stamp{
+    font-size:48px;
+    color:#9cff57;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#777;
+    margin-bottom:40px;
+}
+
+.section{
+    margin-top:35px;
+}
+
+.section h2{
+    color:#9cff57;
+    margin-bottom:10px;
+}
+
+.item{
+    margin:8px 0;
+}
+
+.item::before{
+    content:">> ";
+    color:#9cff57;
+}
+
+</style>
 </head>
 
 <body>
 
-<h1>Abhiram.exe</h1>
-<p>CS Undergraduate at PES University</p>
+<div class="container">
 
+<h1 class="stamp">Abhiram.exe</h1>
+<p class="subtitle">Personal portfolio</p>
+
+<div class="section">
+<h2>About</h2>
+<p>CS undergraduate at PES University. Interested in systems programming, networking and backend development.</p>
+</div>
+
+<div class="section">
 <h2>Projects</h2>
-<p>> Shelby - Unix-like shell written in C</p>
-<p>> Markr - Flask based image watermark tool</p>
+
+<div class="item">Shelby — Unix-like shell written in C supporting process control.</div>
+<div class="item">Web Server Fingerprinting Tool — Python sockets + TLS server analysis.</div>
+<div class="item">Markr — Minimal Flask web tool for image watermarking.</div>
+<div class="item">Queue Management System — Console simulation built in C.</div>
+<div class="item">Game Arcade — Terminal games including Hangman and Battleship.</div>
+
+</div>
+
+<div class="section">
+<h2>Tech Stack</h2>
+
+<div class="item">Languages: C/C++, Python, JavaScript</div>
+<div class="item">Frameworks: Flask, React, Node.js</div>
+<div class="item">Systems: Linux, Socket Programming</div>
+<div class="item">Libraries: NumPy, Pandas, Pillow</div>
+
+</div>
+
+<div class="section">
+<h2>Connect</h2>
+
+<div class="item"><a href="https://github.com/YOURUSERNAME">GitHub</a></div>
+<div class="item"><a href="https://linkedin.com/in/YOURPROFILE">LinkedIn</a></div>
+
+</div>
+
+</div>
 
 </body>
-
 </html>
