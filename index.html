@@ -5,14 +5,14 @@
 
 <title>Abhiram - Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
 
 body{
 background:#0f0f0f;
 color:#d6d6d6;
-font-family:'IBM Plex Mono', monospace;
+font-family:'IBM Plex Sans', sans-serif;
 margin:0;
 line-height:1.6;
 }
@@ -32,11 +32,20 @@ padding-bottom:20px;
 border-bottom:1px solid #222;
 }
 
+/* TERMINAL PROMPT */
+
 .prompt{
+font-family:'IBM Plex Mono', monospace;
+color:#cfcfcf;
+font-weight:500;
+}
+
+.prompt .path{
 color:#4cff7a;
-font-weight:bold;
 text-shadow:0 0 8px #4cff7a;
 }
+
+/* NAV */
 
 nav a{
 margin-left:25px;
@@ -49,9 +58,12 @@ color:#4cff7a;
 text-shadow:0 0 6px #4cff7a;
 }
 
+/* HEADINGS */
+
 h1{
 font-size:42px;
 margin-top:20px;
+font-weight:600;
 }
 
 .subtitle{
@@ -59,7 +71,7 @@ color:#9a9a9a;
 margin-bottom:40px;
 }
 
-/* SECTION LAYOUT */
+/* SECTIONS */
 
 .section{
 margin-top:60px;
@@ -70,13 +82,14 @@ border-bottom:1px solid #222;
 .section h2{
 color:#ffffff;
 margin-bottom:25px;
+font-weight:600;
 }
 
 .item{
 margin:8px 0;
 }
 
-/* PROJECT POSTS STYLE */
+/* PROJECT POSTS */
 
 .project{
 margin-bottom:26px;
@@ -87,6 +100,7 @@ color:#4cff7a;
 font-size:18px;
 text-decoration:none;
 transition:0.2s;
+font-weight:600;
 }
 
 .project a:hover{
@@ -121,7 +135,7 @@ text-shadow:0 0 6px #4cff7a;
 <header>
 
 <div class="prompt">
-user@abhiram:~$_
+user@abhiram<span class="path">:~$</span>_
 </div>
 
 <nav>
@@ -157,44 +171,44 @@ CS undergraduate at PES University.
 
 <div class="project">
 <a href="https://github.com/abhiram289/shellby" target="_blank">
-Shellby
+$ shellby
 </a>
 <div class="meta">A lightweight Unix-like shell supporting command execution and process control.</div>
 </div>
 
 <div class="project">
 <a href="https://github.com/abhiram289/markr.exe" target="_blank">
-Markr
+$ markr.exe
 </a>
 <div class="meta">Minimal image watermarking utility built with Flask. Supports watermark text, positioning, opacity control, and preview.</div>
 </div>
 
 <div class="project">
 <a href="https://github.com/abhiram289/web-server-fingerprinting" target="_blank">
-Web Server Fingerprinting Tool
+$ web server fingerprinting tool
 </a>
 <div class="meta">A client–server fingerprinting application using Python sockets with TLS/SSL encryption.</div>
 </div>
 
 <div class="project">
 <a href="https://github.com/abhiram289/school-management-mern" target="_blank">
-Campus Manager
+$ campus manager
 </a>
 <div class="meta">MERN-based student record management system.</div>
 </div>
 
 <div class="project">
 <a href="https://github.com/abhiram289/queue-management" target="_blank">
-Queue Management System
+$ queue management system
 </a>
 <div class="meta">A simple console-based C project that simulates a hospital queue management system.</div>
 </div>
 
 <div class="project">
 <a href="https://github.com/abhiram289/game-arcade" target="_blank">
-Game Arcade
+$ arcade
 </a>
-<div class="meta">Terminal-based arcade with the classics, Hangman and Battleship written in C.</div>
+<div class="meta">Terminal-based arcade with Hangman and Battleship written in C.</div>
 </div>
 
 </div>
